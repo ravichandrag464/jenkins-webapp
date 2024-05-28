@@ -1,0 +1,61 @@
+body{
+    background-color: #f5f5f5;
+
+}
+*{
+    font-family: "Lato", sans-serif;
+
+}
+
+
+.paragraph{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.top--section{
+    height: 100vh;
+}
+
+.header__web{
+    font-size: 6rem;
+}
+
+.border{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #404040;
+    top: 100px;
+}
+
+.image{
+    width: 100%;
+}
+
+.gallery__image{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+@media(min-width: 500px) {
+    .gallery__image{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+}
+.contact--section{
+    display: flex;
+}
+.contact--inner{
+    
+    width: 50%;
+}
